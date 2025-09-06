@@ -11,17 +11,16 @@ button_values = [
 right_symbols = ["÷", "*", "-", "+", "="]
 top_symbols = ["AC", "+/-", "%"]
 
-color_black = "#1C1C1C"
+color_black =  "white"
 color_light_gray = "#E5E515"
 color_dark_gray = "#505050"
 color_orange = "#FF9500"
-color_white = "white"
+color_white = "#1C1C1C" 
 
 # Window setup
 window = tkinter.Tk()
 window.title("Calculator")
 window.resizable(False, False)
-
 frame = tkinter.Frame(window)
 frame.pack()
 
